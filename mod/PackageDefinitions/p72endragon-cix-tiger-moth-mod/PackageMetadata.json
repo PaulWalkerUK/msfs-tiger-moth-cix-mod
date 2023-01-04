@@ -1,0 +1,16 @@
+{
+  "business": {
+    "PriceInUSD": 0,
+    "ThirdPartyShortName": "p72endragon",
+    "AccountSellerId": "",
+    "UseFirstAvailableReleaseDate": true
+  },
+  "marketplace": {
+    "sections": [
+      {
+        "category": "",
+        "section": ""
+      }
+    ]
+  }
+}

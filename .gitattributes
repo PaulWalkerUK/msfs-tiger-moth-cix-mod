@@ -1,0 +1,7 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Some files are created as lf - let's try not breaking them...
+mod/CIX-Tiger-Moth-Mod.xml eol=lf
+mod/PackageDefinitions/p72endragon-cix-tiger-moth-mod.xml eol=lf
+mod/PackageDefinitions/p72endragon-cix-tiger-moth-mod/PackageMetadata.json eol=lf

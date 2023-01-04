@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssetPackage Version="0.1.0">
+	<ItemSettings>
+		<ContentType>MISC</ContentType>
+		<Title>CIX Tiger Moth Mod</Title>
+		<Manufacturer/>
+		<Creator>P72endragon</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\p72endragon-cix-tiger-moth-mod\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\p72endragon-cix-tiger-moth-mod\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="TigerSmoke">
+			<Type>VisualEffectLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\VisualEffectLibs\cix-tiger-moth-mod\VisualEffectLib\</AssetDir>
+			<OutputDir>VisualEffectLibs\cix-tiger-moth-mod\VisualEffectLib\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="cfgs">
+			<Type>Copy</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Copys\cix-tiger-moth-mod\cfgs\</AssetDir>
+			<OutputDir>SimObjects\Airplanes\antsairplanes-tiger-moth\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+
