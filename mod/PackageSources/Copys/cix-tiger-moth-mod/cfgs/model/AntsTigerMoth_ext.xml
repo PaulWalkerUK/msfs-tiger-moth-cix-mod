@@ -1326,6 +1326,37 @@ prop_state		1 prop slow to stop
 	<Component ID="FX">
 		<UseTemplate Name="Ants_DrifterA582_FX" />
 	</Component>
+    
+    <Include ModelBehaviorFile="Asobo\Generic\FX.xml"/>
+    <Component ID="TIGER_SMOKE">
+        <Parameters Type="Override">
+            <FX_CODE>(A:PROP DEICE SWITCH,Bool)</FX_CODE>
+            <FX_GUID>{39CB8801-E874-4144-B810-148C39CDB165}</FX_GUID>
+        </Parameters>
+        <Component ID="TIGER_SMOKE_0" Node="FX_Node_Engine_Exhaust_ext">
+            <UseTemplate Name="ASOBO_GT_FX"/>
+        </Component>
+    </Component>
 
+    <Component ID="MY_SMOKE_UPD">
+        <Update Frequency = "10">
+            (A:IS USER SIM,bool)
+            if{
+                (A:PROP DEICE SWITCH,bool)
+                if{
+                    (A:SMOKE ENABLE:1,bool) !
+                    if{
+                        (&gt;K:SMOKE_TOGGLE)
+                    }
+                }
+                els{
+                    (A:SMOKE ENABLE:1,bool)
+                    if{
+                        (&gt;K:SMOKE_TOGGLE)
+                    }
+                }
+            }              
+        </Update>
+    </Component>
 </Behaviors>
 </ModelInfo>
