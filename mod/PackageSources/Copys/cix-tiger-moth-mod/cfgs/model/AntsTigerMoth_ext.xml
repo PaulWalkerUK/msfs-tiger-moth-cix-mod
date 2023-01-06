@@ -1344,15 +1344,15 @@ prop_state		1 prop slow to stop
             if{
                 (A:PROP DEICE SWITCH,bool)
                 if{
-                    (A:SMOKE ENABLE:1,bool) !
+                    (A:SMOKE ENABLE:5,bool) !
                     if{
-                        (&gt;K:SMOKE_TOGGLE)
+                        5 (&gt;K:SMOKE_TOGGLE)
                     }
                 }
                 els{
-                    (A:SMOKE ENABLE:1,bool)
+                    (A:SMOKE ENABLE:5,bool)
                     if{
-                        (&gt;K:SMOKE_TOGGLE)
+                        5 (&gt;K:SMOKE_TOGGLE)
                     }
                 }
             }              
