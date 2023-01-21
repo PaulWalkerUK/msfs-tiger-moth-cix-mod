@@ -1328,7 +1328,7 @@ prop_state		1 prop slow to stop
 	</Component>
     
     <Include ModelBehaviorFile="Asobo\Generic\FX.xml"/>
-    <Component ID="TIGER_SMOKE">
+    <Component ID="WHITE_SMOKE">
         <Parameters Type="Override">
             <FX_CODE>(A:SMOKE ENABLE:5,Bool)</FX_CODE>
             <FX_GUID>{39CB8801-E874-4144-B810-148C39CDB165}</FX_GUID>
@@ -1337,8 +1337,28 @@ prop_state		1 prop slow to stop
             <UseTemplate Name="ASOBO_GT_FX"/>
         </Component>
     </Component>
+    
+    <Component ID="BLUE_SMOKE">
+        <Parameters Type="Override">
+            <FX_CODE>(A:SMOKE ENABLE:6,Bool)</FX_CODE>
+            <FX_GUID>{FCB11DA4-53F5-4C59-84DE-40AD4236575A}</FX_GUID>
+        </Parameters>
+        <Component ID="BLUE_SMOKE_0" Node="FX_Node_Engine_Exhaust_ext">
+            <UseTemplate Name="ASOBO_GT_FX"/>
+        </Component>
+    </Component>
+    
+    <Component ID="RED_SMOKE">
+        <Parameters Type="Override">
+            <FX_CODE>(A:SMOKE ENABLE:4,Bool)</FX_CODE>
+            <FX_GUID>{DB273AEE-AA5F-44DE-87E2-1B3CF66E36B1}</FX_GUID>
+        </Parameters>
+        <Component ID="BLUE_SMOKE_0" Node="FX_Node_Engine_Exhaust_ext">
+            <UseTemplate Name="ASOBO_GT_FX"/>
+        </Component>
+    </Component>
 
-    <Component ID="MY_SMOKE_UPD">
+    <Component ID="WHITE_SMOKE_UPDATE">
         <Update Frequency = "10">
             (A:IS USER SIM,bool)
             if{
@@ -1353,6 +1373,48 @@ prop_state		1 prop slow to stop
                     (A:SMOKE ENABLE:5,bool)
                     if{
                         5 (&gt;K:SMOKE_TOGGLE)
+                    }
+                }
+            }              
+        </Update>
+    </Component>
+    
+    <Component ID="BLUE_SMOKE_UPDATE">
+        <Update Frequency = "10">
+            (A:IS USER SIM,bool)
+            if{
+                (A:ENG ANTI ICE:1,bool)
+                if{
+                    (A:SMOKE ENABLE:6,bool) !
+                    if{
+                        6 (&gt;K:SMOKE_TOGGLE)
+                    }
+                }
+                els{
+                    (A:SMOKE ENABLE:6,bool)
+                    if{
+                        6 (&gt;K:SMOKE_TOGGLE)
+                    }
+                }
+            }              
+        </Update>
+    </Component>
+    
+    <Component ID="RED_SMOKE_UPDATE">
+        <Update Frequency = "10">
+            (A:IS USER SIM,bool)
+            if{
+                (A:PLASMA ON:1,bool)
+                if{
+                    (A:SMOKE ENABLE:4,bool) !
+                    if{
+                        4 (&gt;K:SMOKE_TOGGLE)
+                    }
+                }
+                els{
+                    (A:SMOKE ENABLE:4,bool)
+                    if{
+                        4 (&gt;K:SMOKE_TOGGLE)
                     }
                 }
             }              
