@@ -4,7 +4,7 @@
 		<ContentType>MISC</ContentType>
 		<Title>CIX Tiger Moth Mod</Title>
 		<Manufacturer/>
-		<Creator>P72endragon</Creator>
+		<Creator>PaulWalkerUK</Creator>
 	</ItemSettings>
 	<Flags>
 		<VisibleInStore>false</VisibleInStore>
@@ -16,8 +16,8 @@
 			<Flags>
 				<FSXCompatibility>false</FSXCompatibility>
 			</Flags>
-			<AssetDir>PackageDefinitions\p72endragon-cix-tiger-moth-mod\ContentInfo\</AssetDir>
-			<OutputDir>ContentInfo\p72endragon-cix-tiger-moth-mod\</OutputDir>
+			<AssetDir>PackageDefinitions\paulwalkeruk-cix-tiger-moth-mod\ContentInfo</AssetDir>
+			<OutputDir>ContentInfo\paulwalkeruk-cix-tiger-moth-mod</OutputDir>
 		</AssetGroup>
 		<AssetGroup Name="TigerSmoke">
 			<Type>VisualEffectLib</Type>

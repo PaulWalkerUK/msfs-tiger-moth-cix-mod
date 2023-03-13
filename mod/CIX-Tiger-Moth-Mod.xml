@@ -4,7 +4,7 @@
 	<TemporaryOutputDirectory>_PackageInt</TemporaryOutputDirectory>
 	<PublishingGroupTemporaryOutputDirectory>_PublishingGroupInt</PublishingGroupTemporaryOutputDirectory>
 	<Packages>
-		<Package>PackageDefinitions\p72endragon-cix-tiger-moth-mod.xml</Package>
+		<Package>PackageDefinitions\paulwalkeruk-cix-tiger-moth-mod.xml</Package>
 	</Packages>
 	<PublishingGroups/>
 </Project>
