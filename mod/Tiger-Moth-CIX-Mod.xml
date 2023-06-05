@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project Version="2" Name="CIX-Tiger-Moth-Mod" FolderName="Packages" PublishingGroupFolderName="PublishingGroupsContent" MetadataFolderName="PackagesMetadata" PublishingGroupMetadataFolderName="PublishingGroupsMetadata">
+<Project Version="2" Name="Tiger-Moth-CIX-Mod" FolderName="Packages" PublishingGroupFolderName="PublishingGroupsContent" MetadataFolderName="PackagesMetadata" PublishingGroupMetadataFolderName="PublishingGroupsMetadata">
 	<OutputDirectory>.</OutputDirectory>
 	<TemporaryOutputDirectory>_PackageInt</TemporaryOutputDirectory>
 	<PublishingGroupTemporaryOutputDirectory>_PublishingGroupInt</PublishingGroupTemporaryOutputDirectory>
 	<Packages>
-		<Package>PackageDefinitions\paulwalkeruk-cix-tiger-moth-mod.xml</Package>
+		<Package>PackageDefinitions\paulwalkeruk-tiger-moth-cix-mod.xml</Package>
 	</Packages>
 	<PublishingGroups/>
 </Project>

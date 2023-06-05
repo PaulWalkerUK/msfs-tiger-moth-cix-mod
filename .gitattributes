@@ -2,6 +2,6 @@
 * text=auto
 
 # Some files are created as lf - let's try not breaking them...
-mod/CIX-Tiger-Moth-Mod.xml eol=lf
-mod/PackageDefinitions/p72endragon-cix-tiger-moth-mod.xml eol=lf
-mod/PackageDefinitions/p72endragon-cix-tiger-moth-mod/PackageMetadata.json eol=lf
+mod/Tiger-Moth-CIX-Mod.xml eol=lf
+mod/PackageDefinitions/paulwalkeruk-tiger-moth-cix-mod.xml eol=lf
+mod/PackageDefinitions/paulwalkeruk-tiger-moth-cix-mod/PackageMetadata.json eol=lf
