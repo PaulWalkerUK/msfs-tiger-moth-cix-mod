@@ -52,7 +52,7 @@
         </AerosolDensity>
         <Pollution Value="0.000" Unit="(0 - 1)">
         </Pollution>
-        <Precipitations Value="1.780" Unit="mm/h">
+        <Precipitations Value="0" Unit="mm/h">
         </Precipitations>
         <SnowCover Value="0.000" Unit="m">
         </SnowCover>
