@@ -27,6 +27,14 @@
 			<AssetDir>PackageSources\Copys\tiger-moth-cix-mod\cfgs\</AssetDir>
 			<OutputDir>SimObjects\Airplanes\antsairplanes-tiger-moth\</OutputDir>
 		</AssetGroup>
+		<AssetGroup Name="liveries">
+			<Type>Copy</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Copys\tiger-moth-cix-mod\liveries\</AssetDir>
+			<OutputDir>SimObjects\Airplanes\</OutputDir>
+		</AssetGroup>
 		<AssetGroup Name="weather">
 			<Type>Copy</Type>
 			<Flags>
