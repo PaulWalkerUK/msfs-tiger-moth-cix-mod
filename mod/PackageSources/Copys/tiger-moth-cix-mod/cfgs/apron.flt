@@ -60,7 +60,7 @@ prop_beta=0.50963614158234427087
 prop_max_rpm_percent=0
 
 [FuelSystem.0]
-Tank.1=0.5
+Tank.1=0.7
 Tank.2=1.00
 Valve.1=True
 Valve.2=True

@@ -57,7 +57,7 @@ GlowPlugTemperaturePct=1
 prop_beta=0.2321287905152458475
 
 [FuelSystem.0]
-Tank.1=0.5
+Tank.1=0.7
 Tank.2=0.99
 Valve.1=True
 Valve.2=True
