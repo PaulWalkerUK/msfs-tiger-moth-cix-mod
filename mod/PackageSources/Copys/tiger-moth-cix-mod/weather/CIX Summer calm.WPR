@@ -3,7 +3,7 @@
 <SimBase.Document Type="WeatherPreset" version="1,4">
     <Descr>AceXML Document</Descr>
     <WeatherPreset.Preset>
-        <Name>CIX Tigers SpringAutumn</Name>
+        <Name>CIX Summer calm</Name>
         <Image>weather/presets/few_clouds.jpg</Image>
         <Icon>weather/presets/few_clouds.svg</Icon>
         <LayeredImage>weather/presets/few_clouds_layer.png</LayeredImage>
@@ -11,11 +11,11 @@
         <CloudLayer>
             <CloudLayerDensity Value="1.372" Unit="(0 - 1)">
             </CloudLayerDensity>
-            <CloudLayerCoverage Value="0.268" Unit="(0 - 1)">
+            <CloudLayerCoverage Value="0.258" Unit="(0 - 1)">
             </CloudLayerCoverage>
-            <CloudLayerAltitudeBot Value="2130.028" Unit="m">
+            <CloudLayerAltitudeBot Value="1544.061" Unit="m">
             </CloudLayerAltitudeBot>
-            <CloudLayerAltitudeTop Value="2607.773" Unit="m">
+            <CloudLayerAltitudeTop Value="2172.791" Unit="m">
             </CloudLayerAltitudeTop>
             <CloudLayerScattering Value="0.067" Unit="(0 - 1)">
             </CloudLayerScattering>
@@ -33,26 +33,26 @@
             </CloudLayerScattering>
         </CloudLayer>
         <CloudLayer>
-            <CloudLayerDensity Value="1.138" Unit="(0 - 1)">
+            <CloudLayerDensity Value="0.356" Unit="(0 - 1)">
             </CloudLayerDensity>
-            <CloudLayerCoverage Value="0.959" Unit="(0 - 1)">
+            <CloudLayerCoverage Value="1.000" Unit="(0 - 1)">
             </CloudLayerCoverage>
             <CloudLayerAltitudeBot Value="9997.969" Unit="m">
             </CloudLayerAltitudeBot>
-            <CloudLayerAltitudeTop Value="10214.413" Unit="m">
+            <CloudLayerAltitudeTop Value="10063.609" Unit="m">
             </CloudLayerAltitudeTop>
-            <CloudLayerScattering Value="0.000" Unit="(0 - 1)">
+            <CloudLayerScattering Value="0.560" Unit="(0 - 1)">
             </CloudLayerScattering>
         </CloudLayer>
         <MSLPressure Value="101325.000" Unit="pa">
         </MSLPressure>
-        <MSLTemperature Value="285.630" Unit="k">
+        <MSLTemperature Value="298.990" Unit="k">
         </MSLTemperature>
         <AerosolDensity Value="1.000" Unit="m">
         </AerosolDensity>
         <Pollution Value="0.000" Unit="(0 - 1)">
         </Pollution>
-        <Precipitations Value="0" Unit="mm/h">
+        <Precipitations Value="0.000" Unit="mm/h">
         </Precipitations>
         <SnowCover Value="0.000" Unit="m">
         </SnowCover>

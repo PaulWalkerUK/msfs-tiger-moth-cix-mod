@@ -3,15 +3,15 @@
 <SimBase.Document Type="WeatherPreset" version="1,4">
     <Descr>AceXML Document</Descr>
     <WeatherPreset.Preset>
-        <Name>CIX Tigers Summer</Name>
+        <Name>CIX Winter more</Name>
         <Image>weather/presets/few_clouds.jpg</Image>
         <Icon>weather/presets/few_clouds.svg</Icon>
         <LayeredImage>weather/presets/few_clouds_layer.png</LayeredImage>
-        <IsAltitudeAMGL>True</IsAltitudeAMGL>
+        <IsAltitudeAMGL>False</IsAltitudeAMGL>
         <CloudLayer>
             <CloudLayerDensity Value="1.372" Unit="(0 - 1)">
             </CloudLayerDensity>
-            <CloudLayerCoverage Value="0.258" Unit="(0 - 1)">
+            <CloudLayerCoverage Value="0.547" Unit="(0 - 1)">
             </CloudLayerCoverage>
             <CloudLayerAltitudeBot Value="1544.061" Unit="m">
             </CloudLayerAltitudeBot>
@@ -21,9 +21,9 @@
             </CloudLayerScattering>
         </CloudLayer>
         <CloudLayer>
-            <CloudLayerDensity Value="1.000" Unit="(0 - 1)">
+            <CloudLayerDensity Value="0.997" Unit="(0 - 1)">
             </CloudLayerDensity>
-            <CloudLayerCoverage Value="0.000" Unit="(0 - 1)">
+            <CloudLayerCoverage Value="0.200" Unit="(0 - 1)">
             </CloudLayerCoverage>
             <CloudLayerAltitudeBot Value="5000.000" Unit="m">
             </CloudLayerAltitudeBot>
@@ -33,28 +33,44 @@
             </CloudLayerScattering>
         </CloudLayer>
         <CloudLayer>
-            <CloudLayerDensity Value="0.356" Unit="(0 - 1)">
+            <CloudLayerDensity Value="1.138" Unit="(0 - 1)">
             </CloudLayerDensity>
-            <CloudLayerCoverage Value="1.000" Unit="(0 - 1)">
+            <CloudLayerCoverage Value="0.990" Unit="(0 - 1)">
             </CloudLayerCoverage>
             <CloudLayerAltitudeBot Value="9997.969" Unit="m">
             </CloudLayerAltitudeBot>
-            <CloudLayerAltitudeTop Value="10063.609" Unit="m">
+            <CloudLayerAltitudeTop Value="10214.413" Unit="m">
             </CloudLayerAltitudeTop>
-            <CloudLayerScattering Value="0.560" Unit="(0 - 1)">
+            <CloudLayerScattering Value="0.000" Unit="(0 - 1)">
             </CloudLayerScattering>
         </CloudLayer>
+        <WindLayer>
+            <WindLayerAltitude Value="-10.334" Unit="m">
+            </WindLayerAltitude>
+            <WindLayerAngle Value="228.000" Unit="degrees">
+            </WindLayerAngle>
+            <WindLayerSpeed Value="3.871" Unit="knts">
+            </WindLayerSpeed>
+        </WindLayer>
+        <WindLayer>
+            <WindLayerAltitude Value="333.406" Unit="m">
+            </WindLayerAltitude>
+            <WindLayerAngle Value="260.000" Unit="degrees">
+            </WindLayerAngle>
+            <WindLayerSpeed Value="3.871" Unit="knts">
+            </WindLayerSpeed>
+        </WindLayer>
         <MSLPressure Value="101325.000" Unit="pa">
         </MSLPressure>
-        <MSLTemperature Value="298.990" Unit="k">
+        <MSLTemperature Value="277.460" Unit="k">
         </MSLTemperature>
-        <AerosolDensity Value="1.000" Unit="m">
+        <AerosolDensity Value="10.980" Unit="m">
         </AerosolDensity>
         <Pollution Value="0.000" Unit="(0 - 1)">
         </Pollution>
-        <Precipitations Value="0.000" Unit="mm/h">
+        <Precipitations Value="5.150" Unit="mm/h">
         </Precipitations>
-        <SnowCover Value="0.000" Unit="m">
+        <SnowCover Value="0.082" Unit="m">
         </SnowCover>
         <ThunderstormIntensity Value="0.000" Unit="(0 - 1)">
         </ThunderstormIntensity>
