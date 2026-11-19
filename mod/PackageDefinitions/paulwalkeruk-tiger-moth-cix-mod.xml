@@ -19,6 +19,14 @@
 			<AssetDir>PackageDefinitions\paulwalkeruk-tiger-moth-cix-mod\ContentInfo\</AssetDir>
 			<OutputDir>ContentInfo\paulwalkeruk-tiger-moth-cix-mod\</OutputDir>
 		</AssetGroup>
+		<AssetGroup Name="smoke">
+			<Type>VisualEffectLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\VisualEffectLibs\tiger-moth-cix-mod\VisualEffectLib\</AssetDir>
+			<OutputDir>VisualEffectLibs\tiger-moth-cix-mod\VisualEffectLib\</OutputDir>
+		</AssetGroup>
 		<AssetGroup Name="cfgs">
 			<Type>Copy</Type>
 			<Flags>
