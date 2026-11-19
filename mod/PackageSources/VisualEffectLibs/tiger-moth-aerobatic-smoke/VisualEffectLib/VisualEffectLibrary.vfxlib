@@ -1,0 +1,6 @@
+<VisualEffectLibrary Version="1.0.0">
+	<VisualEffect File="smoke-red"/>
+	<VisualEffect File="smoke-white"/>
+	<VisualEffect File="smoke-blue"/>
+</VisualEffectLibrary>
+
