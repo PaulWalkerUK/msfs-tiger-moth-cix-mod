@@ -10,9 +10,10 @@
 		<VisibleInStore>false</VisibleInStore>
 		<CanBeReferenced>false</CanBeReferenced>
 	</Flags>
+	<PackageOrderHint>CUSTOM_VFX</PackageOrderHint>
 	<AssetGroups>
 		<AssetGroup Name="ContentInfo">
-			<Type>ContentInfo</Type>
+			<Type Version="0">ContentInfo</Type>
 			<Flags>
 				<FSXCompatibility>false</FSXCompatibility>
 			</Flags>
@@ -20,7 +21,7 @@
 			<OutputDir>ContentInfo\paulwalkeruk-tiger-moth-cix-mod\</OutputDir>
 		</AssetGroup>
 		<AssetGroup Name="cfgs">
-			<Type>Copy</Type>
+			<Type Version="0">Copy</Type>
 			<Flags>
 				<FSXCompatibility>false</FSXCompatibility>
 			</Flags>
@@ -28,15 +29,23 @@
 			<OutputDir>SimObjects\Airplanes\antsairplanes-tiger-moth\</OutputDir>
 		</AssetGroup>
 		<AssetGroup Name="liveries">
-			<Type>Copy</Type>
+			<Type Version="0">Copy</Type>
 			<Flags>
 				<FSXCompatibility>false</FSXCompatibility>
 			</Flags>
 			<AssetDir>PackageSources\Copys\tiger-moth-cix-mod\liveries\</AssetDir>
 			<OutputDir>SimObjects\Airplanes\</OutputDir>
 		</AssetGroup>
+		<AssetGroup Name="smoke">
+			<Type Version="0">VisualEffectLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\VisualEffectLibs\tiger-moth-cix-mod\VisualEffectLib\</AssetDir>
+			<OutputDir>VisualEffectLibs\tiger-moth-cix-mod\VisualEffectLib\</OutputDir>
+		</AssetGroup>
 		<AssetGroup Name="weather">
-			<Type>Copy</Type>
+			<Type Version="0">Copy</Type>
 			<Flags>
 				<FSXCompatibility>false</FSXCompatibility>
 			</Flags>

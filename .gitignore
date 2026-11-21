@@ -1,2 +1,5 @@
 mod/_PackageInt
 mod/Packages
+
+# MSFS Project Editor per-user settings
+*.user
