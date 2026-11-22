@@ -13,6 +13,62 @@ The aerobatic smoke is based on (and should be used with) v1.4.1 of Ant's Tiger 
 
 This mod now includes the aerobatic smoke that used to be a separate add-on (Tiger Moth Aerobatic Smoke). If you have that installed, remove it before installing this one.
 
+## Liveries
+
+Each livery has its own default setup of exterior details. These are applied every time the aircraft is loaded. You can change them for the current flight on the aircraft's tablet, and the tablet's reset button goes back to the livery's defaults.
+
+All liveries share the following. The "Tablet setting" and "Default" columns use the names and values shown on the tablet's Exterior Preferences page:
+
+Option                                              | Tablet setting         | Default
+----------------------------------------------------|------------------------|----------------
+Brass leading edge of propeller                     | Propeller edge         | On
+Inner wheel covers                                  | Wheel cover inner      | Off
+Outer wheel covers                                  | Wheel cover outer      | On
+Small covers at the base of the struts and fuselage | *(not on the tablet)*  | Shown
+Tail gear                                           | Tail gear              | Skid
+Air intake                                          | Air intake             | Vintage
+Oil tank                                            | Oil tank               | Straps
+Windy airspeed gauge on left wing strut             | Windy Airspeed gauge   | Show
+Prop spinner                                        | Propeller spinner      | On
+
+The remaining details differ between liveries (tablet settings **Venturi** and **Pitot type**):
+
+Livery  | Venturi    | Pitot type
+--------|------------|-----------
+TIGER-0 | Australian | Australian
+TIGER-1 | English    | English
+TIGER-2 | English    | English
+TIGER-3 | English    | English
+TIGER-4 | English    | English
+TIGER-5 | English    | English
+TIGER-6 | English    | English
+TIGER-7 | Australian | English
+TIGER-8 | Australian | Australian
+TIGER-9 | Australian | Australian
+
+The Australian venturi sits higher up on the right strut; the English one is lower down on the fuselage, mirroring the left side. The Australian pitot is straight; the English one bends down.
+
+<details>
+<summary>How the defaults are set</summary>
+
+The defaults are stored as the last 11 characters of the `Title` in each livery's `aircraft.cfg`, for example `Title="Tiger Moth TIGER-0 01001100000"`. From left to right:
+
+Position | Option                                              | Tablet setting        | 0                                     | 1
+:-------:|-----------------------------------------------------|-----------------------|---------------------------------------|---------------------------------
+1        | Brass leading edge of propeller                     | Propeller edge        | show                                  | hide
+2        | Inner wheel covers                                  | Wheel cover inner     | show                                  | hide
+3        | Outer wheel covers                                  | Wheel cover outer     | show                                  | hide
+4        | Small covers at the base of the struts and fuselage | *(not on the tablet)* | show                                  | hide
+5        | Tail gear                                           | Tail gear             | wheel                                 | skid
+6        | Air intake                                          | Air intake            | modern (tear drop shaped)             | vintage (round)
+7        | Oil tank                                            | Oil tank              | straps                                | no straps
+8        | Venturi                                             | Venturi               | Australian (higher up on right strut) | English (lower down on fuselage)
+9        | Pitot type                                          | Pitot type            | Australian (straight)                 | English (bends down)
+10       | Windy airspeed gauge on left wing strut             | Windy Airspeed gauge  | show                                  | hide
+11       | Prop spinner                                        | Propeller spinner     | show                                  | hide
+
+</details>
+
 ## Aerobatic Smoke
 
 Coloured display smoke (red/white/blue) can be set using the following controls (choose whatever key/joystick combinations as appropriate):
