@@ -15,6 +15,23 @@ This mod now includes the aerobatic smoke that used to be a separate add-on (Tig
 
 ## Liveries
 
+The CIX Tigers liveries are existing liveries with a Tiger number added to the fuselage.
+
+Livery  | Aircraft | Based on                                                                                        | Changes for CIX VFR Club
+--------|----------|-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------
+TIGER-0 | ZK-BRC   | Ant's Airplanes (included with Ant's Tiger Moth)                                                | Tiger number added
+TIGER-1 | A17-692  | Ant's Airplanes (included with Ant's Tiger Moth)                                                | Tiger number added
+TIGER-2 | G-ANOD   | Jankees: [G-ANOD repaint](https://flightsim.to/file/51232/de-havilland-dh-82-tiger-moth-g-anod) | Tiger number added
+TIGER-3 | T-6953   | Ant's Airplanes (included with Ant's Tiger Moth)                                                | Tiger number added
+TIGER-4 | A17-736  | Ant's Airplanes (included with Ant's Tiger Moth)                                                | Tiger number added
+TIGER-5 | N-6635   | Ant's Airplanes (included with Ant's Tiger Moth)                                                | Tiger number added
+TIGER-6 | K-4259   | Ant's Airplanes (included with Ant's Tiger Moth)                                                | Tiger number added; yellow bands on fuselage and wings changed to red
+TIGER-7 | HB-UPM   | Jankees: [HB-UPM repaint](https://flightsim.to/file/41488/de-havilland-dh-82-tiger-moth-hb-upm) | Tiger number added
+TIGER-8 | VH-BVB   | Ant's Airplanes (included with Ant's Tiger Moth)                                                | Tiger number added
+TIGER-9 | A17-518  | Ant's Airplanes (included with Ant's Tiger Moth)                                                | Tiger number added
+
+Thanks to Ant's Airplanes for the aircraft and its original liveries, and to Jan Kees Blom (Jankees) for the G-ANOD and HB-UPM repaints.
+
 Each livery has its own default setup of exterior details. These are applied every time the aircraft is loaded. You can change them for the current flight on the aircraft's tablet, and the tablet's reset button goes back to the livery's defaults.
 
 All liveries share the following. The "Tablet setting" and "Default" columns use the names and values shown on the tablet's Exterior Preferences page:
