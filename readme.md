@@ -15,20 +15,20 @@ This mod now includes the aerobatic smoke that used to be a separate add-on (Tig
 
 ## Liveries
 
-The CIX Tigers liveries are existing liveries with a Tiger number added to the fuselage.
+The CIX Tigers liveries are existing liveries with "Tiger" and the Tiger number added to both sides of the fuselage. Liveries flown by a regular club member also show that pilot's name and flag.
 
-Livery  | Aircraft | Based on                                                                                        | Changes for CIX VFR Club
---------|----------|-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------
-TIGER-0 | ZK-BRC   | Ant's Airplanes (included with Ant's Tiger Moth)                                                | Tiger number added
-TIGER-1 | A17-692  | Ant's Airplanes (included with Ant's Tiger Moth)                                                | Tiger number added
-TIGER-2 | G-ANOD   | Jankees: [G-ANOD repaint](https://flightsim.to/file/51232/de-havilland-dh-82-tiger-moth-g-anod) | Tiger number added
-TIGER-3 | T-6953   | Ant's Airplanes (included with Ant's Tiger Moth)                                                | Tiger number added
-TIGER-4 | A17-736  | Ant's Airplanes (included with Ant's Tiger Moth)                                                | Tiger number added
-TIGER-5 | N-6635   | Ant's Airplanes (included with Ant's Tiger Moth)                                                | Tiger number added
-TIGER-6 | K-4259   | Ant's Airplanes (included with Ant's Tiger Moth)                                                | Tiger number added; yellow bands on fuselage and wings changed to red
-TIGER-7 | HB-UPM   | Jankees: [HB-UPM repaint](https://flightsim.to/file/41488/de-havilland-dh-82-tiger-moth-hb-upm) | Tiger number added
-TIGER-8 | VH-BVB   | Ant's Airplanes (included with Ant's Tiger Moth)                                                | Tiger number added
-TIGER-9 | A17-518  | Ant's Airplanes (included with Ant's Tiger Moth)                                                | Tiger number added
+Livery  | Aircraft | Based on                                                                                        | Pilot                | Changes for CIX VFR Club
+--------|----------|-------------------------------------------------------------------------------------------------|----------------------|---------------------------------------------------------------------------------------
+TIGER-0 | ZK-BRC   | Ant's Airplanes (included with Ant's Tiger Moth)                                                |                      | "Tiger" and number added
+TIGER-1 | A17-692  | Ant's Airplanes (included with Ant's Tiger Moth)                                                |                      | "Tiger" and number added
+TIGER-2 | G-ANOD   | Jankees: [G-ANOD repaint](https://flightsim.to/file/51232/de-havilland-dh-82-tiger-moth-g-anod) |                      | "Tiger" and number added
+TIGER-3 | T-6953   | Ant's Airplanes (included with Ant's Tiger Moth)                                                | Dave (UK)            | "Tiger", number, pilot name and flag added
+TIGER-4 | A17-736  | Ant's Airplanes (included with Ant's Tiger Moth)                                                | Cristian (Romania)   | "Tiger", number, pilot name and flag added
+TIGER-5 | N-6635   | Ant's Airplanes (included with Ant's Tiger Moth)                                                |                      | "Tiger" and number added
+TIGER-6 | K-4259   | Ant's Airplanes (included with Ant's Tiger Moth)                                                | Tudux (Switzerland)  | "Tiger", number, pilot name and flag added; yellow bands on fuselage and wings changed to red
+TIGER-7 | HB-UPM   | Jankees: [HB-UPM repaint](https://flightsim.to/file/41488/de-havilland-dh-82-tiger-moth-hb-upm) | John (UK)            | "Tiger", number, pilot name and flag added
+TIGER-8 | VH-BVB   | Ant's Airplanes (included with Ant's Tiger Moth)                                                | Wentian (Australia)  | "Tiger", number, pilot name and flag added
+TIGER-9 | A17-518  | Ant's Airplanes (included with Ant's Tiger Moth)                                                | Paul (UK)            | "Tiger", number, pilot name and flag added
 
 Thanks to Ant's Airplanes for the aircraft and its original liveries, and to Jan Kees Blom (Jankees) for the G-ANOD and HB-UPM repaints.
 

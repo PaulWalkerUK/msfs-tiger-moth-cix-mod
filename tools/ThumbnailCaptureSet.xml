@@ -1,0 +1,16 @@
+<ThumbnailFile Version="2.0">
+	<!--
+		Aircraft Capture Tool custom set for livery thumbnails (MSFS 2024 Dev Mode > Tools > Aircraft Capture Tool > Load Custom Set).
+		Based on Asobo's AircraftCaptureToolUiPreset.xml (https://docs.flightsimulator.com/msfs2024/files/AircraftCaptureToolUiPreset.xml),
+		with two extra shots for the MSFS 2020 thumbnails. Capture each livery into its texture.TIGER-n folder.
+	-->
+	<ThumbnailGroup SubFolder="">
+		<!-- MSFS 2024 -->
+		<Thumbnail Width="720" Height="344" Camera="Thumbnail" CaptureAlpha="0" File="thumbnail.png" MakeUniqueFilename="0" ShowsShootingScene="1" ShowsShootingSceneLights="0" ShowsWorld="0" ShowsSunLight="1" DrawOutline="0" OutlineWidth="1" OptimiseCamera="1" OptimisationType="InterestingPoints"/>
+		<Thumbnail Width="930" Height="340" Camera="Left" CaptureAlpha="1" File="thumbnail_side.png" MakeUniqueFilename="0" ShowsShootingScene="1" ShowsShootingSceneLights="0" ShowsWorld="0" ShowsSunLight="1" DrawOutline="0" OutlineWidth="1" OptimiseCamera="1" OptimisationType="InterestingPoints"/>
+		<Thumbnail Width="830" Height="260" Camera="ThumbnailButton" CaptureAlpha="1" File="thumbnail_button.png" MakeUniqueFilename="0" ShowsShootingScene="1" ShowsShootingSceneLights="0" ShowsWorld="1" ShowsSunLight="0" DrawOutline="0" OutlineWidth="1" OptimiseCamera="1" OptimisationType="InterestingPoints"/>
+		<!-- MSFS 2020 (opaque JPGs, same camera as thumbnail.png) -->
+		<Thumbnail Width="1618" Height="582" Camera="Thumbnail" CaptureAlpha="0" File="thumbnail.jpg" MakeUniqueFilename="0" ShowsShootingScene="1" ShowsShootingSceneLights="0" ShowsWorld="0" ShowsSunLight="1" DrawOutline="0" OutlineWidth="1" OptimiseCamera="1" OptimisationType="InterestingPoints"/>
+		<Thumbnail Width="600" Height="216" Camera="Thumbnail" CaptureAlpha="0" File="thumbnail_small.jpg" MakeUniqueFilename="0" ShowsShootingScene="1" ShowsShootingSceneLights="0" ShowsWorld="0" ShowsSunLight="1" DrawOutline="0" OutlineWidth="1" OptimiseCamera="1" OptimisationType="InterestingPoints"/>
+	</ThumbnailGroup>
+</ThumbnailFile>
